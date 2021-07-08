@@ -5,8 +5,6 @@ import wordsToNumbers from 'words-to-numbers';
 import NewsCards from './Components/NewsCards/NewsCards';
 import useStyles from './styles';
 
-console.log(process.env.REACT_APP_ALAN_API_KEY);
-
 const alanKey = process.env.REACT_APP_ALAN_API_KEY;
 
 const App = () => {
